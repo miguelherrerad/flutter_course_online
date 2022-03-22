@@ -1,6 +1,6 @@
+import 'package:flutter_course_online/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_course_online/screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());

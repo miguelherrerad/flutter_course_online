@@ -1,3 +1,8 @@
+import 'package:flutter_course_online/components/home/article_list.dart';
+import 'package:flutter_course_online/components/home/category_list.dart';
+import 'package:flutter_course_online/components/home/course_list.dart';
+import 'package:flutter_course_online/components/home/header_home.dart';
+import 'package:flutter_course_online/components/home/navigation_home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_course_online/constant.dart';
 
@@ -24,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding:
                   EdgeInsets.symmetric(horizontal: spacer).copyWith(bottom: 14),
               child: Text(
-                "Quiero Estudiar\nQué hay hoy?",
+                "iLearn\nAcademia de Inglés",
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   color: darkColor,
