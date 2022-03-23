@@ -26,15 +26,15 @@ class NavigationHome extends StatelessWidget {
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
-          label: "Home",
+          label: "Inico",
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.grid_view_rounded),
-          label: "List",
+          label: "Lista",
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.bookmark_rounded),
-          label: "Bookmark",
+          label: "Guardados",
         ),
         BottomNavigationBarItem(
           icon: ClipRRect(
@@ -45,7 +45,7 @@ class NavigationHome extends StatelessWidget {
               height: 26,
             ),
           ),
-          label: "Profile",
+          label: "Perfil",
         ),
       ],
     );

@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding:
                   EdgeInsets.symmetric(horizontal: spacer).copyWith(bottom: 14),
               child: Text(
-                "iLearn\nAcademia de Inglés",
+                "Hola, Miguel Ángel!\nQué deseas estudiar hoy?",
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   color: darkColor,
@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             CategoryList(),
-            SectionTitle(title: "Curso Popular", onTap: () {}),
+            SectionTitle(title: "Cursos Populares", onTap: () {}),
             CourseList(),
             SectionTitle(title: "Artículos", onTap: () {}),
             ArticleList(),

@@ -14,14 +14,14 @@ class Course {
 List<Course> course = [
   Course(
     image: "assets/images/course1.png",
-    price: "Free",
+    price: "Gratis",
     title: "UI Design : Wireframe to Visual Design",
     rating: 5,
     countRating: 4016,
   ),
   Course(
     image: "assets/images/course2.png",
-    price: "Free",
+    price: "Gratis",
     title: "UI Design : Styleguide with Figma",
     rating: 5,
     countRating: 1055,

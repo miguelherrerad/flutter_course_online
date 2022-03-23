@@ -12,17 +12,17 @@ class Category {
 List<Category> categories = [
   Category(
     icon: "assets/icons/icon1.png",
-    title: "Design",
+    title: "Diseño",
     count: 49,
   ),
   Category(
     icon: "assets/icons/icon2.png",
-    title: "Soft Skill",
+    title: "Programación",
     count: 12,
   ),
   Category(
     icon: "assets/icons/icon3.png",
-    title: "Art",
+    title: "Arte",
     count: 50,
   ),
 ];

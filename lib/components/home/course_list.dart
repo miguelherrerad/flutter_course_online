@@ -122,7 +122,7 @@ class SectionTitle extends StatelessWidget {
           InkWell(
             onTap: onTap,
             child: Text(
-              "Show all",
+              "Ver todo",
               style: TextStyle(
                 fontSize: 11,
                 fontWeight: FontWeight.w500,
